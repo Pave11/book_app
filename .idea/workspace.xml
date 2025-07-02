@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment="add OpenLibrary API service">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useFavorites.ts" afterDir="false" />
+    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment=" implement favorites system">
+      <change afterPath="$PROJECT_DIR$/src/hooks/useInfiniteScroll.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/books.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/books.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BookCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FavoritePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FavoritePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookSearch.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <workItem from="1751476863538" duration="814000" />
       <workItem from="1751477691287" duration="39000" />
       <workItem from="1751477743072" duration="136000" />
-      <workItem from="1751477946856" duration="2374000" />
+      <workItem from="1751477946856" duration="5407000" />
     </task>
     <task id="LOCAL-00001" summary="import tailwind">
       <option name="closed" value="true" />
@@ -131,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751478909805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" implement favorites system">
+      <option name="closed" value="true" />
+      <created>1751480525906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751480525906</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +160,7 @@
     <MESSAGE value="add husky + prettier" />
     <MESSAGE value=" add base page structure" />
     <MESSAGE value="add OpenLibrary API service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OpenLibrary API service" />
+    <MESSAGE value=" implement favorites system" />
+    <option name="LAST_COMMIT_MESSAGE" value=" implement favorites system" />
   </component>
 </project>

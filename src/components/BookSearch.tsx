@@ -9,9 +9,8 @@ export const BookSearch: React.FC<BookSearchProps> = ({ onSearch }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSearch(searchQuery);
+    onSearch(searchQuery.trim() === '' ? '*' : searchQuery);
   };
-
   return (
     <form onSubmit={handleSubmit} className="flex gap-2">
       <input

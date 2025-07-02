@@ -22,7 +22,7 @@ export const BookCard: React.FC<BookCardProps> = ({
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow hover:bg-gray-50 relative">
+    <div className="h-[220px] bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow hover:bg-gray-70 relative">
       {/* Кнопка избранного */}
       <button
         onClick={handleToggleFavorite}
@@ -67,11 +67,11 @@ export const BookCard: React.FC<BookCardProps> = ({
         </div>
 
         {/* Информация о книге */}
-        <div className="w-2/3 p-4 flex flex-col">
-          <h3 className="font-bold text-lg mb-2 line-clamp-2">{book.title}</h3>
+        <div className="w-2/3 max-w-[220px] p-4 flex flex-col">
+          <h3 className="font-bold text-lg mb-2 line-clamp-3">{book.title}</h3>
 
           {book.author_name && (
-            <p className="text-gray-600 mb-2 line-clamp-1">
+            <p className="text-gray-600 mb-2 line-clamp-3">
               Автор: {book.author_name.join(', ')}
             </p>
           )}
