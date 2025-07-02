@@ -4,22 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment="import tailwind" />
+    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment="add husky + prettier">
+      <change afterPath="$PROJECT_DIR$/src/components/BookCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookSearch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AuthPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BookDetailPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FavoritePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pave11&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pave11/book_app.git&quot;,
+    &quot;accountId&quot;: &quot;137960f3-d6c4-4dd6-a8f1-bcb8dc1e6e32&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2zK01RHzZhdbU1D7B1dPgSA8n2Q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +66,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/learning/book_app",
     "node.js.detected.package.eslint": "true",
@@ -38,8 +75,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "ts.external.directory.path": "D:\\learning\\book_app\\node_modules\\typescript\\lib",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "ts.external.directory.path": "D:\\programs\\WebStorm 2025.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,7 +95,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751464241341</updated>
-      <workItem from="1751464242476" duration="1397000" />
+      <workItem from="1751464242476" duration="1713000" />
+      <workItem from="1751465994013" duration="3139000" />
+      <workItem from="1751469167990" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="import tailwind">
       <option name="closed" value="true" />
@@ -67,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751465581698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add husky + prettier">
+      <option name="closed" value="true" />
+      <created>1751465833668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751465833668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="import tailwind" />
-    <option name="LAST_COMMIT_MESSAGE" value="import tailwind" />
+    <MESSAGE value="add husky + prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="add husky + prettier" />
   </component>
 </project>
