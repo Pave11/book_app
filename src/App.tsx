@@ -10,7 +10,7 @@ function App() {
     <>
       <Navigation />
       <Routes>
-        <Route path="/main" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/book/:id" element={<BookDetailPage />} />
         <Route path="/fav" element={<FavoritePage />} />
       </Routes>
