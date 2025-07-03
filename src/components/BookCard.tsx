@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Book } from '../api/books';
 
 interface BookCardProps {
@@ -16,13 +17,20 @@ export const BookCard: React.FC<BookCardProps> = ({
   const [isHovered, setIsHovered] = useState(false);
 
   const handleToggleFavorite = (e: React.MouseEvent) => {
+    e.preventDefault();
     e.stopPropagation();
     setLocalFavorite(!localFavorite);
     onToggleFavorite(book);
   };
 
+  // Очищаем book.key от '/works/' для URL
+  const bookId = book.key.replace('/works/', '');
+
   return (
-    <div className="h-[220px] bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow hover:bg-gray-70 relative">
+    <Link
+      to={`/book/${bookId}`}
+      className="block h-[220px] bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow hover:bg-gray-70 relative"
+    >
       {/* Кнопка избранного */}
       <button
         onClick={handleToggleFavorite}
@@ -77,17 +85,10 @@ export const BookCard: React.FC<BookCardProps> = ({
           )}
 
           <div className="mt-auto">
-            <a
-              href={`https://openlibrary.org${book.key}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline text-sm"
-            >
-              Подробнее на OpenLibrary
-            </a>
+            <div className="text-blue-600 text-sm">Подробнее →</div>
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
