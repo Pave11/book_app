@@ -6,7 +6,7 @@ export function FavoritePage() {
   const { favorites, toggleFavorite } = useFavorites();
 
   return (
-    <div className="container mx-auto max-w-[800px] pt-10">
+    <div className="container mx-auto max-w-4xl pt-10">
       <h1 className="text-2xl font-bold mb-6">Избранные книги</h1>
 
       {favorites.length === 0 ? (

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export function Navigation() {
   return (
     <div className="bg-gray-200 shadow-md">
-      <div className="container mx-auto max-w-[800px]">
+      <div className="container mx-auto max-w-4xl">
         <nav className="flex justify-between h-[50px] items-center px-4">
           <Link
             to="/"

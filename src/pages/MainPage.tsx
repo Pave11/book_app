@@ -49,7 +49,7 @@ export function MainPage() {
   useInfiniteScroll(loadMoreBooks);
 
   return (
-    <div className="container mx-auto max-w-[800px] pt-10">
+    <div className="container mx-auto max-w-4xl pt-10">
       <BookSearch onSearch={setQuery} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
