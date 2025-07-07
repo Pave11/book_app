@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment="add book detail page">
+    <list default="true" id="c05f762e-6ac1-4c4d-b7f1-28944ad29462" name="Changes" comment="Improve tab display: add favicon, update title and meta tags">
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookCard.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookSearch.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useFavorites.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FavoritePage.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +102,10 @@
       <workItem from="1751571532153" duration="2081000" />
       <workItem from="1751810880238" duration="308000" />
       <workItem from="1751811201024" duration="2000" />
+      <workItem from="1751811235535" duration="787000" />
+      <workItem from="1751910080289" duration="5711000" />
+      <workItem from="1751919126350" duration="587000" />
+      <workItem from="1751920795199" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="import tailwind">
       <option name="closed" value="true" />
@@ -161,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751574221467</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Improve tab display: add favicon, update title and meta tags">
+      <option name="closed" value="true" />
+      <created>1751811369771</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751811369771</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +205,7 @@
     <MESSAGE value="fix empty search string" />
     <MESSAGE value=" implement fully clickable card with book detail page" />
     <MESSAGE value="add book detail page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add book detail page" />
+    <MESSAGE value="Improve tab display: add favicon, update title and meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve tab display: add favicon, update title and meta tags" />
   </component>
 </project>
